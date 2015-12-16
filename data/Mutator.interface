@@ -1,0 +1,11 @@
+#$Id$
+service=Mutator
+
+[call::get]
+ret=STRING
+arg1=STRING,variable
+
+[call::set]
+ret=BOOLEAN
+arg1=STRING,variable
+arg2=STRING,value

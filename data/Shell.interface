@@ -1,0 +1,13 @@
+#$Id$
+service=Shell
+
+[call::exec]
+ret=UINT
+arg1=STRING,program
+arg2=STRING[],argv
+arg3=STRING[],envp
+arg4=STRING,cwd
+
+[call::run]
+ret=UINT
+arg1=STRING,command
