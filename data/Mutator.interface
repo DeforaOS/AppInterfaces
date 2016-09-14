@@ -6,6 +6,6 @@ ret=STRING
 arg1=STRING,variable
 
 [call::set]
-ret=BOOLEAN
+ret=BOOL
 arg1=STRING,variable
 arg2=STRING,value
