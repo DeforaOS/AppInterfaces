@@ -9,5 +9,5 @@ arg3=STRING[],envp
 arg4=STRING,cwd
 
 [call::run]
-ret=UINT
+ret=INT8
 arg1=STRING,command
