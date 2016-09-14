@@ -18,7 +18,7 @@ arg2=STRING,section
 arg3=UINT32,what
 
 [call::set]
-ret=BOOLEAN
+ret=BOOL
 arg1=STRING,filename
 arg2=STRING,section
 arg3=STRING,variable
