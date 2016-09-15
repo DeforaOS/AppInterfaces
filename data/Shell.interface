@@ -2,12 +2,12 @@
 service=Shell
 
 [call::exec]
-ret=UINT
+ret=INT16
 arg1=STRING,program
 arg2=STRING[],argv
 arg3=STRING[],envp
 arg4=STRING,cwd
 
 [call::run]
-ret=INT8
+ret=INT16
 arg1=STRING,command
